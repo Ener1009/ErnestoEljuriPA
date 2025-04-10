@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernesto Eljuri - Public Adjuster & Appraiser in Florida, USA</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .hero-section {
+            background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-content p {
+            font-size: 1.7rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #367c39;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 3;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #4CAF50;
+        }
+
+        .services-section,
+        .reviews-section {
+            padding: 50px 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .services-section h2,
+        .reviews-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .review-card {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #f9f9f9;
+            max-width: 600px;
+        }
+
+        .review-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .btn-review {
+            display: block;
+            margin: 30px auto 0;
+            background-color: #ff9800;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-review:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Your Trusted Public Adjuster in Florida</h1>
+            <p>Helping you navigate insurance claims with expertise and care</p>
+            <a href="#services" class="btn-primary">Learn More</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <p style="text-align: center;">Providing appraisal, adjustment, and claim support throughout Florida.</p>
+    </section>
+
+    <section id="reviews" class="reviews-section">
+        <h2>What Our Clients Say</h2>
+        <div class="review-grid">
+            <div class="review-card">
+                <p>“Ernesto was incredibly helpful during our claim process. His knowledge and dedication made a tough time so much easier!”</p>
+                <p><strong>- Maria G., Orlando FL</strong></p>
+            </div>
+            <div class="review-card">
+                <p>“Professional, efficient, and caring. Highly recommend Ernesto if you’re filing an insurance claim!”</p>
+                <p><strong>- James D., Tampa FL</strong></p>
+            </div>
+        </div>
+        <a class="btn-review" href="http://bit.ly/GoogleReviewFiveStarCFL" target="_blank">
+            Leave a 5-Star Review for Ernesto
+        </a>
+    </section>
+</body>
+</html>
